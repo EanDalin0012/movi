@@ -1,0 +1,6 @@
+2019-10-05 17:08:40 [http-nio-8080-exec-1] [ERROR] c.s.movi.controller.HomeController - error
+2019-10-05 17:09:56 [http-nio-8080-exec-2] [ERROR] c.s.movi.controller.HomeController - error
+2019-10-05 17:38:18 [http-nio-8080-exec-1] [ERROR] c.s.movi.controller.HomeController - error
+2019-10-05 17:39:41 [http-nio-8080-exec-1] [ERROR] c.s.movi.controller.HomeController - error
+2019-10-05 18:07:36 [http-nio-8080-exec-3] [ERROR] com.spring.movi.api.TypeRecontroller - 
+ /@m!n/movitype save()
