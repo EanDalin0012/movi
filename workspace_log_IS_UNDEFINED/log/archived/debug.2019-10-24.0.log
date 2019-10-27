@@ -1,0 +1,1073 @@
+2019-10-24 21:07:15 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 6996 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:07:15 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:07:15 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:07:15 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:07:16 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:07:17 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:07:17 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:07:17 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:07:17 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:07:17 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:07:17 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1775 ms
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:07:17 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:07:18 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:07:18 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:07:18 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:07:18 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:07:20 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:07:20 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:07:20 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:07:20 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 5.481 seconds (JVM running for 8.388)
+2019-10-24 21:07:41 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:07:41 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:07:41 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-24 21:07:41 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:07:41 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:07:44 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:07:44 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d9d23cb] was not registered for synchronization because synchronization is not active
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@105ebdde] was not registered for synchronization because synchronization is not active
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:07:44 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:07:44 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63c6b36d] was not registered for synchronization because synchronization is not active
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1093687585 wrapping org.postgresql.jdbc.PgConnection@456f6178] will not be managed by Spring
+2019-10-24 21:07:44 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2061169996 wrapping org.postgresql.jdbc.PgConnection@35a86e3] will not be managed by Spring
+2019-10-24 21:07:44 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d9d23cb]
+2019-10-24 21:07:44 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@105ebdde]
+2019-10-24 21:07:44 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@759491206 wrapping org.postgresql.jdbc.PgConnection@62013e55] will not be managed by Spring
+2019-10-24 21:07:44 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63c6b36d]
+2019-10-24 21:08:57 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:08:57 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bdf074d] was not registered for synchronization because synchronization is not active
+2019-10-24 21:08:57 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1534925675 wrapping org.postgresql.jdbc.PgConnection@456f6178] will not be managed by Spring
+2019-10-24 21:08:57 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bdf074d]
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52e37a11] was not registered for synchronization because synchronization is not active
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@29303278 wrapping org.postgresql.jdbc.PgConnection@35a86e3] will not be managed by Spring
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52e37a11]
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23e9a054] was not registered for synchronization because synchronization is not active
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2002447022 wrapping org.postgresql.jdbc.PgConnection@35a86e3] will not be managed by Spring
+2019-10-24 21:10:15 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23e9a054]
+2019-10-24 21:20:59 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 7452 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:20:59 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:20:59 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:20:59 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:21:00 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:21:00 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:21:00 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:21:01 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:21:01 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:21:01 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:21:01 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1198 ms
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:21:01 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:21:01 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:21:01 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:21:01 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:21:02 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:21:02 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:21:02 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:21:02 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.889 seconds (JVM running for 5.609)
+2019-10-24 21:21:42 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:21:42 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:21:42 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-24 21:21:42 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:21:42 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:21:43 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:21:43 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c928ec0] was not registered for synchronization because synchronization is not active
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aec94fb] was not registered for synchronization because synchronization is not active
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:21:43 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:21:43 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bb807ca] was not registered for synchronization because synchronization is not active
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:21:43 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@616502487 wrapping org.postgresql.jdbc.PgConnection@857c4ca] will not be managed by Spring
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@213830988 wrapping org.postgresql.jdbc.PgConnection@4be18fb6] will not be managed by Spring
+2019-10-24 21:21:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aec94fb]
+2019-10-24 21:21:43 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1397481490 wrapping org.postgresql.jdbc.PgConnection@66e5f374] will not be managed by Spring
+2019-10-24 21:21:43 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c928ec0]
+2019-10-24 21:21:43 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bb807ca]
+2019-10-24 21:21:47 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:21:47 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@598f9a4f] was not registered for synchronization because synchronization is not active
+2019-10-24 21:21:47 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@172092407 wrapping org.postgresql.jdbc.PgConnection@857c4ca] will not be managed by Spring
+2019-10-24 21:21:47 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@598f9a4f]
+2019-10-24 21:23:10 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 11692 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:23:10 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:23:10 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:23:10 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:23:10 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:23:10 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:23:11 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:23:11 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:23:11 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:23:11 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:23:11 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:23:11 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1001 ms
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:23:11 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:23:11 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:23:11 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:23:11 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:23:12 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:23:12 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:23:12 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:23:12 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:23:12 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.639 seconds (JVM running for 4.162)
+2019-10-24 21:23:31 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 16568 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:23:31 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:23:31 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:23:31 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:23:31 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:23:32 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:23:32 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:23:32 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:23:32 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:23:32 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:23:32 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 959 ms
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:23:32 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:23:32 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:23:32 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:23:32 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:23:33 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:23:33 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:23:33 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:23:33 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.537 seconds (JVM running for 3.755)
+2019-10-24 21:23:41 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:23:41 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:23:41 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 21:23:41 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:23:41 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:23:43 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:23:43 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@378c25f7] was not registered for synchronization because synchronization is not active
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a8057dd] was not registered for synchronization because synchronization is not active
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:23:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:23:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@476b8a2b] was not registered for synchronization because synchronization is not active
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@5576527 wrapping org.postgresql.jdbc.PgConnection@2056017e] will not be managed by Spring
+2019-10-24 21:23:43 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a8057dd]
+2019-10-24 21:23:43 [http-nio-8080-exec-2] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1948290726 wrapping org.postgresql.jdbc.PgConnection@2056017e] will not be managed by Spring
+2019-10-24 21:23:43 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1424593128 wrapping org.postgresql.jdbc.PgConnection@3b994301] will not be managed by Spring
+2019-10-24 21:23:43 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@378c25f7]
+2019-10-24 21:23:43 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@476b8a2b]
+2019-10-24 21:24:09 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:24:09 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d63f076] was not registered for synchronization because synchronization is not active
+2019-10-24 21:24:09 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:24:09 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f66de06] was not registered for synchronization because synchronization is not active
+2019-10-24 21:24:09 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@426038634 wrapping org.postgresql.jdbc.PgConnection@2056017e] will not be managed by Spring
+2019-10-24 21:24:09 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@901183558 wrapping org.postgresql.jdbc.PgConnection@3b994301] will not be managed by Spring
+2019-10-24 21:24:09 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d63f076]
+2019-10-24 21:24:09 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f66de06]
+2019-10-24 21:24:09 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:24:09 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c1f371] was not registered for synchronization because synchronization is not active
+2019-10-24 21:24:09 [http-nio-8080-exec-9] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1339218624 wrapping org.postgresql.jdbc.PgConnection@2056017e] will not be managed by Spring
+2019-10-24 21:24:09 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c1f371]
+2019-10-24 21:24:13 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:24:13 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c2c1cf] was not registered for synchronization because synchronization is not active
+2019-10-24 21:24:13 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1861463108 wrapping org.postgresql.jdbc.PgConnection@2056017e] will not be managed by Spring
+2019-10-24 21:24:13 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c2c1cf]
+2019-10-24 21:25:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 5300 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:25:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:25:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:25:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:25:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:25:44 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:25:45 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:25:45 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:25:45 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:25:45 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:25:45 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1163 ms
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:25:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:25:45 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:25:45 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:25:45 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:25:46 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:25:46 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:25:46 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:25:46 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:25:46 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 3.094 seconds (JVM running for 4.162)
+2019-10-24 21:26:31 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:26:31 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:26:31 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 21:26:31 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:26:31 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:26:32 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:32 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:32 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:33 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@482a78bd] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:33 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@113c2bd] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:33 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fbc8f2] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:33 [http-nio-8080-exec-5] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:26:33 [http-nio-8080-exec-5] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:26:33 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1784163167 wrapping org.postgresql.jdbc.PgConnection@6989b200] will not be managed by Spring
+2019-10-24 21:26:33 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38fbc8f2]
+2019-10-24 21:26:33 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1138586123 wrapping org.postgresql.jdbc.PgConnection@6989b200] will not be managed by Spring
+2019-10-24 21:26:33 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1391125136 wrapping org.postgresql.jdbc.PgConnection@5229dab8] will not be managed by Spring
+2019-10-24 21:26:33 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@482a78bd]
+2019-10-24 21:26:33 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@113c2bd]
+2019-10-24 21:26:39 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:39 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@694d6994] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:39 [http-nio-8080-exec-9] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1728394303 wrapping org.postgresql.jdbc.PgConnection@6989b200] will not be managed by Spring
+2019-10-24 21:26:39 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:39 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e06053c] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:39 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@694d6994]
+2019-10-24 21:26:39 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@92936778 wrapping org.postgresql.jdbc.PgConnection@5229dab8] will not be managed by Spring
+2019-10-24 21:26:39 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e06053c]
+2019-10-24 21:26:39 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:39 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22649d54] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:39 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@750320529 wrapping org.postgresql.jdbc.PgConnection@6989b200] will not be managed by Spring
+2019-10-24 21:26:39 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22649d54]
+2019-10-24 21:26:44 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:26:44 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@495ebf04] was not registered for synchronization because synchronization is not active
+2019-10-24 21:26:44 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1702029242 wrapping org.postgresql.jdbc.PgConnection@6989b200] will not be managed by Spring
+2019-10-24 21:26:44 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@495ebf04]
+2019-10-24 21:30:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 4084 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:30:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:30:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:30:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:30:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:30:45 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:30:45 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:30:45 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:30:45 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:30:45 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:30:45 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1460 ms
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:30:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:30:45 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:30:45 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:30:45 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:30:46 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:30:46 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:30:46 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:30:46 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:30:46 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 3.24 seconds (JVM running for 4.453)
+2019-10-24 21:31:07 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:31:07 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:31:07 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 21:31:07 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:31:07 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:31:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:31:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f1f1a62] was not registered for synchronization because synchronization is not active
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289a37d4] was not registered for synchronization because synchronization is not active
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:31:08 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:31:08 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b425bb7] was not registered for synchronization because synchronization is not active
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:31:08 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1949852069 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@325808991 wrapping org.postgresql.jdbc.PgConnection@688e6498] will not be managed by Spring
+2019-10-24 21:31:08 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289a37d4]
+2019-10-24 21:31:08 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b425bb7]
+2019-10-24 21:31:08 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@724722445 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:31:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f1f1a62]
+2019-10-24 21:31:13 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:31:13 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794410ad] was not registered for synchronization because synchronization is not active
+2019-10-24 21:31:13 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1112063502 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:31:13 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794410ad]
+2019-10-24 21:34:01 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:34:01 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:34:01 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58b859ed] was not registered for synchronization because synchronization is not active
+2019-10-24 21:34:01 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a37dc66] was not registered for synchronization because synchronization is not active
+2019-10-24 21:34:01 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@545595348 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:34:01 [http-nio-8080-exec-9] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2005043791 wrapping org.postgresql.jdbc.PgConnection@688e6498] will not be managed by Spring
+2019-10-24 21:34:01 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58b859ed]
+2019-10-24 21:34:01 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a37dc66]
+2019-10-24 21:34:01 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:34:01 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32adbd1] was not registered for synchronization because synchronization is not active
+2019-10-24 21:34:01 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@221966479 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:34:01 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32adbd1]
+2019-10-24 21:34:30 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:34:30 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c97b3e] was not registered for synchronization because synchronization is not active
+2019-10-24 21:34:30 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@514370710 wrapping org.postgresql.jdbc.PgConnection@43ec4f2f] will not be managed by Spring
+2019-10-24 21:34:30 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c97b3e]
+2019-10-24 21:35:27 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 16016 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:35:27 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:35:27 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:35:27 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:35:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:35:28 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:35:28 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:35:28 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:35:28 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:35:28 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:35:28 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1063 ms
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:35:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:35:28 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:35:28 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:35:29 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:35:29 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:35:29 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:35:29 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:35:29 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:35:29 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.952 seconds (JVM running for 4.586)
+2019-10-24 21:35:50 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:35:50 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:35:50 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-10-24 21:35:50 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:35:50 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:35:51 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:35:51 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15a3e24c] was not registered for synchronization because synchronization is not active
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115530d2] was not registered for synchronization because synchronization is not active
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:35:51 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:35:51 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31d920f8] was not registered for synchronization because synchronization is not active
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1315322214 wrapping org.postgresql.jdbc.PgConnection@6a43578f] will not be managed by Spring
+2019-10-24 21:35:51 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115530d2]
+2019-10-24 21:35:51 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1214759844 wrapping org.postgresql.jdbc.PgConnection@6a43578f] will not be managed by Spring
+2019-10-24 21:35:51 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@656964125 wrapping org.postgresql.jdbc.PgConnection@538353a7] will not be managed by Spring
+2019-10-24 21:35:51 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15a3e24c]
+2019-10-24 21:35:51 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31d920f8]
+2019-10-24 21:35:54 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:35:54 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70bcbffc] was not registered for synchronization because synchronization is not active
+2019-10-24 21:35:54 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@863014760 wrapping org.postgresql.jdbc.PgConnection@6a43578f] will not be managed by Spring
+2019-10-24 21:35:54 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70bcbffc]
+2019-10-24 21:40:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 4408 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:40:43 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:40:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:40:43 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:40:44 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:40:44 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:40:44 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:40:44 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:40:44 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:40:45 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:40:45 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1183 ms
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:40:45 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:40:45 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:40:45 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:40:45 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:40:46 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:40:46 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:40:46 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:40:46 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 3.517 seconds (JVM running for 5.112)
+2019-10-24 21:40:58 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:40:58 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:40:58 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 21:40:58 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:40:58 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:40:59 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f94a91] was not registered for synchronization because synchronization is not active
+2019-10-24 21:40:59 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@178b9358] was not registered for synchronization because synchronization is not active
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:40:59 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:40:59 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1aa559f4] was not registered for synchronization because synchronization is not active
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1048623245 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:40:59 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f94a91]
+2019-10-24 21:40:59 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1011040535 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:40:59 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@178b9358]
+2019-10-24 21:40:59 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@141580960 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:40:59 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1aa559f4]
+2019-10-24 21:43:21 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:43:21 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:43:21 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@620dd13] was not registered for synchronization because synchronization is not active
+2019-10-24 21:43:21 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4de0050c] was not registered for synchronization because synchronization is not active
+2019-10-24 21:43:21 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2124149758 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:43:21 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@806979491 wrapping org.postgresql.jdbc.PgConnection@26174021] will not be managed by Spring
+2019-10-24 21:43:21 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4de0050c]
+2019-10-24 21:43:21 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@620dd13]
+2019-10-24 21:43:21 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:43:21 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cf2dbab] was not registered for synchronization because synchronization is not active
+2019-10-24 21:43:21 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@844701840 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:43:21 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cf2dbab]
+2019-10-24 21:44:08 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:44:08 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c534019] was not registered for synchronization because synchronization is not active
+2019-10-24 21:44:08 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1899028547 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:44:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:44:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6868103f] was not registered for synchronization because synchronization is not active
+2019-10-24 21:44:08 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c534019]
+2019-10-24 21:44:08 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1529284408 wrapping org.postgresql.jdbc.PgConnection@26174021] will not be managed by Spring
+2019-10-24 21:44:08 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6868103f]
+2019-10-24 21:44:09 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:44:09 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3027390] was not registered for synchronization because synchronization is not active
+2019-10-24 21:44:09 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@893551922 wrapping org.postgresql.jdbc.PgConnection@4f98fc33] will not be managed by Spring
+2019-10-24 21:44:09 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3027390]
+2019-10-24 21:45:20 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 16024 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:45:20 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:45:21 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:45:21 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:45:21 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:45:22 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:45:22 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:45:22 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:45:22 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:45:22 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:45:22 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1131 ms
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:45:22 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:45:22 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:45:22 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:45:22 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:45:23 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:45:23 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:45:23 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:45:23 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:45:23 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 3.25 seconds (JVM running for 4.268)
+2019-10-24 21:46:11 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:46:11 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:46:11 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-10-24 21:46:11 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:46:11 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:46:12 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:46:12 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:46:12 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@98832ac] was not registered for synchronization because synchronization is not active
+2019-10-24 21:46:12 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ccff52c] was not registered for synchronization because synchronization is not active
+2019-10-24 21:46:12 [http-nio-8080-exec-9] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:46:12 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:46:12 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6541b387] was not registered for synchronization because synchronization is not active
+2019-10-24 21:46:13 [http-nio-8080-exec-9] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:46:13 [http-nio-8080-exec-2] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2081808061 wrapping org.postgresql.jdbc.PgConnection@74f3adad] will not be managed by Spring
+2019-10-24 21:46:13 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@98832ac]
+2019-10-24 21:46:13 [http-nio-8080-exec-9] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@775859214 wrapping org.postgresql.jdbc.PgConnection@74f3adad] will not be managed by Spring
+2019-10-24 21:46:13 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1547584626 wrapping org.postgresql.jdbc.PgConnection@3611a13d] will not be managed by Spring
+2019-10-24 21:46:13 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ccff52c]
+2019-10-24 21:46:13 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6541b387]
+2019-10-24 21:49:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:49:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16915bfc] was not registered for synchronization because synchronization is not active
+2019-10-24 21:49:14 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1531846235 wrapping org.postgresql.jdbc.PgConnection@74f3adad] will not be managed by Spring
+2019-10-24 21:49:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16915bfc]
+2019-10-24 21:51:11 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 3828 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 21:51:11 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 21:51:11 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 21:51:11 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 21:51:12 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 21:51:12 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 21:51:12 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:51:12 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 21:51:12 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 21:51:12 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 21:51:12 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1019 ms
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 21:51:13 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 21:51:13 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 21:51:13 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 21:51:13 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 21:51:13 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 21:51:13 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 21:51:13 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 21:51:13 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.487 seconds (JVM running for 3.595)
+2019-10-24 21:51:37 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 21:51:37 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 21:51:37 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 21:51:37 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 21:51:37 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:51:39 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bebcecf] was not registered for synchronization because synchronization is not active
+2019-10-24 21:51:39 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@80459f5] was not registered for synchronization because synchronization is not active
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 21:51:39 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:51:39 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@698c63c9] was not registered for synchronization because synchronization is not active
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@911139567 wrapping org.postgresql.jdbc.PgConnection@78888046] will not be managed by Spring
+2019-10-24 21:51:39 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bebcecf]
+2019-10-24 21:51:39 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@374689703 wrapping org.postgresql.jdbc.PgConnection@78888046] will not be managed by Spring
+2019-10-24 21:51:39 [http-nio-8080-exec-2] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1769210630 wrapping org.postgresql.jdbc.PgConnection@2f8fdeaa] will not be managed by Spring
+2019-10-24 21:51:39 [http-nio-8080-exec-2] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@80459f5]
+2019-10-24 21:51:39 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@698c63c9]
+2019-10-24 21:52:03 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 21:52:03 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dcc34a2] was not registered for synchronization because synchronization is not active
+2019-10-24 21:52:03 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2037124663 wrapping org.postgresql.jdbc.PgConnection@78888046] will not be managed by Spring
+2019-10-24 21:52:03 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7dcc34a2]
+2019-10-24 22:03:26 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 13400 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 22:03:26 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 22:03:26 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 22:03:26 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 22:03:27 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 22:03:27 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:03:27 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 22:03:27 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 22:03:27 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 22:03:27 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1052 ms
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 22:03:27 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 22:03:27 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 22:03:27 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 22:03:28 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 22:03:28 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 22:03:28 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 22:03:28 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:03:28 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 22:03:28 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.616 seconds (JVM running for 3.688)
+2019-10-24 22:03:35 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 22:03:35 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 22:03:35 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-24 22:03:35 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 22:03:35 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 22:03:36 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c270274] was not registered for synchronization because synchronization is not active
+2019-10-24 22:03:36 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6af4968c] was not registered for synchronization because synchronization is not active
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 22:03:36 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:03:36 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f8b8cd4] was not registered for synchronization because synchronization is not active
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2007137673 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:03:36 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c270274]
+2019-10-24 22:03:36 [http-nio-8080-exec-9] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1740896237 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:03:36 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@264240807 wrapping org.postgresql.jdbc.PgConnection@3e3ad3e4] will not be managed by Spring
+2019-10-24 22:03:36 [http-nio-8080-exec-9] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6af4968c]
+2019-10-24 22:03:36 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f8b8cd4]
+2019-10-24 22:05:14 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:05:14 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74e765c1] was not registered for synchronization because synchronization is not active
+2019-10-24 22:05:14 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@174760980 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:05:14 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74e765c1]
+2019-10-24 22:05:14 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:05:14 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@394ab69e] was not registered for synchronization because synchronization is not active
+2019-10-24 22:05:14 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1238981585 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:05:14 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@394ab69e]
+2019-10-24 22:05:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:05:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72376dcb] was not registered for synchronization because synchronization is not active
+2019-10-24 22:05:14 [http-nio-8080-exec-6] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@573147478 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:05:14 [http-nio-8080-exec-6] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72376dcb]
+2019-10-24 22:10:32 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:10:32 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:10:32 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@610b279] was not registered for synchronization because synchronization is not active
+2019-10-24 22:10:32 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b5ec454] was not registered for synchronization because synchronization is not active
+2019-10-24 22:10:32 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@566837086 wrapping org.postgresql.jdbc.PgConnection@5d9cf985] will not be managed by Spring
+2019-10-24 22:10:32 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1729505741 wrapping org.postgresql.jdbc.PgConnection@3e3ad3e4] will not be managed by Spring
+2019-10-24 22:10:32 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@610b279]
+2019-10-24 22:10:32 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b5ec454]
+2019-10-24 22:10:32 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:10:32 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@257ace38] was not registered for synchronization because synchronization is not active
+2019-10-24 22:10:32 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1113710119 wrapping org.postgresql.jdbc.PgConnection@3e3ad3e4] will not be managed by Spring
+2019-10-24 22:10:32 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@257ace38]
+2019-10-24 22:11:02 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 9980 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 22:11:02 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 22:11:02 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 22:11:02 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 22:11:03 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 22:11:03 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 22:11:03 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:11:03 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 22:11:03 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 22:11:03 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 22:11:03 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 968 ms
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 22:11:04 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 22:11:04 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 22:11:04 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 22:11:04 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 22:11:04 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 22:11:04 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:11:04 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 22:11:04 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.482 seconds (JVM running for 3.344)
+2019-10-24 22:11:10 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 22:11:10 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 22:11:10 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-24 22:11:10 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 22:11:11 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:12 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78befb5f] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:12 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46027a02] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 22:11:12 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:12 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@407d33a1] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1688898649 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:12 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78befb5f]
+2019-10-24 22:11:12 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@493706955 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:12 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46027a02]
+2019-10-24 22:11:12 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1585410954 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:12 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@407d33a1]
+2019-10-24 22:11:22 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:22 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e596e3] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:22 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@640014192 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:22 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54e596e3]
+2019-10-24 22:11:29 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:29 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c6a9cb3] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:29 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1196723877 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:29 [http-nio-8080-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c6a9cb3]
+2019-10-24 22:11:34 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:11:34 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c6834f] was not registered for synchronization because synchronization is not active
+2019-10-24 22:11:34 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@546130494 wrapping org.postgresql.jdbc.PgConnection@3ec6e319] will not be managed by Spring
+2019-10-24 22:11:34 [http-nio-8080-exec-10] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c6834f]
+2019-10-24 22:17:26 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 17216 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 22:17:26 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 22:17:27 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 22:17:27 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 22:17:27 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 22:17:28 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 22:17:28 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:17:28 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 22:17:28 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 22:17:28 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 22:17:28 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1035 ms
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 22:17:28 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 22:17:28 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 22:17:28 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 22:17:28 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 22:17:29 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 22:17:29 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:17:29 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 22:17:29 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.611 seconds (JVM running for 3.756)
+2019-10-24 22:17:34 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 22:17:34 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 22:17:34 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-24 22:17:34 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 22:17:34 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:17:35 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@538d479] was not registered for synchronization because synchronization is not active
+2019-10-24 22:17:35 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c70c408] was not registered for synchronization because synchronization is not active
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 22:17:35 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:17:35 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a4b799b] was not registered for synchronization because synchronization is not active
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 22:17:35 [http-nio-8080-exec-8] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1878866620 wrapping org.postgresql.jdbc.PgConnection@50ecfeda] will not be managed by Spring
+2019-10-24 22:17:35 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1034769051 wrapping org.postgresql.jdbc.PgConnection@1046a4b6] will not be managed by Spring
+2019-10-24 22:17:35 [http-nio-8080-exec-8] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a4b799b]
+2019-10-24 22:17:35 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c70c408]
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2136508745 wrapping org.postgresql.jdbc.PgConnection@1046a4b6] will not be managed by Spring
+2019-10-24 22:17:35 [http-nio-8080-exec-7] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@538d479]
+2019-10-24 22:26:38 [restartedMain] [INFO] com.spring.movi.MoviApplication - Starting MoviApplication on DESKTOP-SSTPOFF with PID 16340 (D:\Projects\movi\target\classes started by Eanda in D:\Projects\movi)
+2019-10-24 22:26:38 [restartedMain] [INFO] com.spring.movi.MoviApplication - No active profile set, falling back to default profiles: default
+2019-10-24 22:26:39 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 22:26:39 [restartedMain] [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.spring.movi'
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\ImageDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviDetailsDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviImageDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\MoviTypeDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\RoleDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Projects\movi\target\classes\com\spring\movi\dao\TypeDAO.class]
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'imageDAO' and 'com.spring.movi.dao.ImageDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'imageDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDAO' and 'com.spring.movi.dao.MoviDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviDetailsDAO' and 'com.spring.movi.dao.MoviDetailsDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviDetailsDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviImageDAO' and 'com.spring.movi.dao.MoviImageDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviImageDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'moviTypeDAO' and 'com.spring.movi.dao.MoviTypeDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'moviTypeDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleDAO' and 'com.spring.movi.dao.RoleDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleDAO'.
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'typeDAO' and 'com.spring.movi.dao.TypeDAO' mapperInterface
+2019-10-24 22:26:39 [restartedMain] [DEBUG] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'typeDAO'.
+2019-10-24 22:26:39 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-24 22:26:39 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:26:39 [restartedMain] [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-24 22:26:39 [restartedMain] [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 22:26:39 [restartedMain] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-24 22:26:39 [restartedMain] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 954 ms
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis_config.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\imagedao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movidetailsdao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\moviimagedao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\movitypedao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\roledao.xml]'
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\Projects\movi\target\classes\mybatis\mapper\typedao.xml]'
+2019-10-24 22:26:40 [restartedMain] [INFO] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 22:26:40 [restartedMain] [INFO] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-10-24 22:26:40 [restartedMain] [WARN] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-10-24 22:26:40 [restartedMain] [DEBUG] o.m.s.b.a.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2019-10-24 22:26:40 [restartedMain] [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-24 22:26:40 [restartedMain] [INFO] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-24 22:26:40 [restartedMain] [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 22:26:40 [restartedMain] [INFO] com.spring.movi.MoviApplication - Started MoviApplication in 2.5 seconds (JVM running for 3.692)
+2019-10-24 22:26:55 [http-nio-8080-exec-1] [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 22:26:55 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-24 22:26:55 [http-nio-8080-exec-1] [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-24 22:26:55 [http-nio-8080-exec-1] [WARN] n.n.u.t.d.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2019-10-24 22:26:55 [http-nio-8080-exec-1] [WARN] n.n.u.t.e.ExpressionProcessor - Fragment expression "admin/layout/default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:26:56 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:26:56 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6db1ef06] was not registered for synchronization because synchronization is not active
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@160e99dc] was not registered for synchronization because synchronization is not active
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-24 22:26:56 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-10-24 22:26:56 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19d86736] was not registered for synchronization because synchronization is not active
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@324966420 wrapping org.postgresql.jdbc.PgConnection@41c9f7ff] will not be managed by Spring
+2019-10-24 22:26:56 [http-nio-8080-exec-1] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@160e99dc]
+2019-10-24 22:26:56 [http-nio-8080-exec-4] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1927132544 wrapping org.postgresql.jdbc.PgConnection@41c9f7ff] will not be managed by Spring
+2019-10-24 22:26:56 [http-nio-8080-exec-3] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@997736504 wrapping org.postgresql.jdbc.PgConnection@75b574d7] will not be managed by Spring
+2019-10-24 22:26:56 [http-nio-8080-exec-3] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6db1ef06]
+2019-10-24 22:26:56 [http-nio-8080-exec-4] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19d86736]

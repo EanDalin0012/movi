@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <meta charset="utf-8">
+        <title>Insert title here</title>
+        <th:block th:replace="admin/fragments/_css"></th:block>
+    </head>
+    <body class="hold-transition skin-blue sidebar-mini">
+
+        <div class="wrapper">
+
+            <div th:replace="admin/fragments/_header::header"></div>
+            <div th:replace="admin/fragments/_lelt::_lefts"></div>
+
+            <div class="content-wrapper" layout:fragment="_contents">
+                <h1>Default Layout</h1>
+            </div>
+
+            <div th:replace="admin/fragments/_footer::_footer"></div>
+            <div class="control-sidebar-bg"></div>
+
+        </div>
+        <th:block th:replace="admin/fragments/_js"></th:block>
+        <!--<script>
+            $(function () {
+                $.widget.bridge('uibutton', $.ui.button);
+            });
+        </script>-->
+    </body>
+</html>

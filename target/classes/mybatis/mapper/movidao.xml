@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.movi.dao.MoviDAO">
+
+    <resultMap type="MoviDTO"   	id="moviDTO">
+        <id property="id"	    	column="id"/>
+        <id property="title" 		column="title"/>
+        <id property="moviTypeId"  column="movitype"/>
+        <id property="typeId" 		column="type"/>
+        <id property="order" 	    column="order"/>
+        <id property="description" 	column="description"/>
+        <id property="createBy" 	column="createby"/>
+        <id property="createDate" 	column="createdate"/>
+        <id property="modifyBy" 	column="modifyby"/>
+        <id property="modifyDate" 	column="modifydate"/>
+        <id property="status" 		column="status"/>
+        <collection property="imagesDTO" 	resultMap="imagesDTOMap" />
+    </resultMap>
+
+    <resultMap type="ImagesDTO"   	id="imagesDTOMap">
+    <id property="id"	    	column="imgid"/>
+    <id property="name" 		column="imgname"/>
+    <id property="uri" 		    column="imguri"/>
+    <id property="size" 		column="imgsize"/>
+    <id property="type" 		column="imgtype"/>
+    <id property="description" 	column="imgdescription"/>
+    <id property="createBy" 	column="imgcreateby"/>
+    <id property="createDate" 	column="imgcreatedate"/>
+    <id property="modifyBy" 	column="imgmodifyby"/>
+    <id property="modifyDate" 	column="imgmodifydate"/>
+    <id property="status" 		column="imgstatus"/>
+</resultMap>
+
+    <select id="count" resultType="int">
+	   <![CDATA[
+		   select count(*) from movi
+	     ]]>
+	</select>
+
+    <select id="checkUniqueName" resultType="int">
+	   <![CDATA[
+		  SELECT
+		    count(*)
+		  FROM movi
+		  WHERE title = #{title}
+		  AND type = #{typeId}
+		  AND movitype = #{moviTypeId}
+	     ]]>
+	</select>
+
+    <select id="getListMovi" resultMap="moviDTO">
+	    <![CDATA[
+		  SELECT
+	     	mo.id                 AS  "id"
+	     	,mo.title             AS  "title"
+	     	,mo.movitype          AS  "movitype"
+	     	,mo.type              AS  "type"
+	     	,mo.order             AS  "order"
+	     	,mo.description       AS  "description"
+	     	,mo.createby          AS  "createby"
+	     	,mo.createdate        AS  "createdate"
+	     	,mo.modifydate        AS  "modifydate"
+	     	,mo.modifyby          AS  "modifyby"
+	     	,mo.status            AS  "status"
+			,imgmovi.id           AS  "imgid"
+			,imgmovi.name         AS  "imgname"
+			,imgmovi.uri          AS  "imguri"
+			,imgmovi.size         AS  "imgsize"
+			,imgmovi.type         AS  "imgtype"
+			,imgmovi.createby     AS  "imgcreateby"
+	     	,imgmovi.createdate   AS  "imgcreatedate"
+	     	,imgmovi.modifydate   AS  "imgmodifydate"
+	     	,imgmovi.modifyby     AS  "imgmodifyby"
+	     	,imgmovi.status       AS  "imgstatus"
+	     FROM movi as mo LEFT JOIN
+		 moviimages as mimg on mimg.moviid = mo.id
+		 LEFT JOIN imgmovi as imgmovi on imgmovi.id = mimg.imageid
+		 WHERE mo.status = #{status}
+	     ]]>
+	</select>
+
+    <insert id="save" parameterType="moviDTO">
+    	<![CDATA[
+	    	INSERT INTO movi
+	    	(
+                id
+                ,title
+                ,type
+                ,movitype
+                ,"order"
+                ,description
+                ,createby
+                ,createdate
+                ,modifydate
+                ,modifyby
+                ,status
+	    	)
+	    	VALUES(
+	    	    #{id}
+                ,#{title}
+                ,#{typeId}
+                ,#{moviTypeId}
+                ,#{order}
+                ,#{description}
+                ,#{createBy}
+                ,#{createDate}
+                ,#{modifyDate}
+                ,#{modifyBy}
+                ,#{status}
+	    		)
+    	]]>
+    </insert>
+
+    <!--<select id="getValueById" resultMap="moviDTO">-->
+	   <!--<![CDATA[-->
+		  <!--SELECT-->
+	     	<!--id-->
+	     	<!--, title-->
+	     	<!--, movitype-->
+	     	<!--, type-->
+	     	<!--, "order"-->
+	     	<!--, description-->
+	     	<!--, createby-->
+	     	<!--, createdate-->
+	     	<!--, modifydate-->
+	     	<!--, modifyby-->
+	     	<!--, status-->
+	     <!--FROM movi WHERE id = #{id}-->
+	     <!--]]>-->
+	<!--</select>-->
+
+    <update id="update" parameterType="moviDTO">
+		<![CDATA[
+		UPDATE movi
+	     SET
+                title        = #{title}
+                , type         = #{typeId}
+                , movitype     = #{moviTypeId}
+                , "order"      = #{order}
+                , description  = #{description}
+                , modifydate   = #{modifyDate}
+                , modifyby     = #{modifyBy}
+	     WHERE   id			   = #{id}
+		]]>
+	</update>
+
+    <update id="delete" parameterType="moviDTO">
+		<![CDATA[
+		UPDATE movi
+	     SET
+	     	status			= #{status}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+
+    <select id="getValueById" resultMap="moviDTO">
+	   <![CDATA[
+		  SELECT
+	     	mo.id                 AS  "id"
+	     	,mo.title             AS  "title"
+	     	,mo.movitype          AS  "movitype"
+	     	,mo.type              AS  "type"
+	     	,mo.order             AS  "order"
+	     	,mo.description       AS  "description"
+	     	,mo.createby          AS  "createby"
+	     	,mo.createdate        AS  "createdate"
+	     	,mo.modifydate        AS  "modifydate"
+	     	,mo.modifyby          AS  "modifyby"
+	     	,mo.status            AS  "status"
+			,imgmovi.id           AS  "imgid"
+			,imgmovi.name         AS  "imgname"
+			,imgmovi.uri          AS  "imguri"
+			,imgmovi.size         AS  "imgsize"
+			,imgmovi.type         AS  "imgtype"
+			,imgmovi.createby     AS  "imgcreateby"
+	     	,imgmovi.createdate   AS  "imgcreatedate"
+	     	,imgmovi.modifydate   AS  "imgmodifydate"
+	     	,imgmovi.modifyby     AS  "imgmodifyby"
+	     	,imgmovi.status       AS  "imgstatus"
+	     FROM movi as mo LEFT JOIN
+		 moviimages as mimg on mimg.moviid = mo.id
+		 LEFT JOIN imgmovi as imgmovi on imgmovi.id = mimg.imageid
+		 WHERE mo.id = #{id}
+	     ]]>
+	</select>
+
+</mapper>

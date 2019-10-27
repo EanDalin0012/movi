@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.movi.dao.MoviDetailsDAO">
+
+    <resultMap type="MoviDetailsDTO"   	id="moviDetailsDTO">
+        <id property="id"	    	column="id"/>
+        <id property="title" 		column="title"/>
+        <id property="moviTypeName"  column="moviTypeName"/>
+        <id property="typeName" 		column="typeName"/>
+        <id property="order" 	    column="order"/>
+        <id property="description" 	column="description"/>
+        <id property="createBy" 	column="createby"/>
+        <id property="createDate" 	column="createdate"/>
+        <id property="modifyBy" 	column="modifyby"/>
+        <id property="modifyDate" 	column="modifydate"/>
+        <id property="status" 		column="status"/>
+        <collection property="imagesDTO" 	resultMap="imagesDTOMap" />
+    </resultMap>
+
+    <resultMap type="ImagesDTO"   	id="imagesDTOMap">
+    <id property="id"	    	column="imgid"/>
+    <id property="name" 		column="imgname"/>
+    <id property="uri" 		    column="imguri"/>
+    <id property="size" 		column="imgsize"/>
+    <id property="type" 		column="imgtype"/>
+    <id property="description" 	column="imgdescription"/>
+    <id property="createBy" 	column="imgcreateby"/>
+    <id property="createDate" 	column="imgcreatedate"/>
+    <id property="modifyBy" 	column="imgmodifyby"/>
+    <id property="modifyDate" 	column="imgmodifydate"/>
+    <id property="status" 		column="imgstatus"/>
+</resultMap>
+
+    <select id="getListMovi" resultMap="moviDetailsDTO">
+	    <![CDATA[
+		  SELECT
+	     	mo.id                 AS  "id"
+			,t.name				  AS "typeName"
+			,mt.name			  AS "moviTypeName"
+	     	,mo.title             AS  "title"
+	     	,mo.order             AS  "order"
+	     	,mo.description       AS  "description"
+	     	,mo.createby          AS  "createby"
+	     	,mo.createdate        AS  "createdate"
+	     	,mo.modifydate        AS  "modifydate"
+	     	,mo.modifyby          AS  "modifyby"
+	     	,mo.status            AS  "status"
+
+			,imgmovi.id           AS  "imgid"
+			,imgmovi.name         AS  "imgname"
+			,imgmovi.uri          AS  "imguri"
+			,imgmovi.size         AS  "imgsize"
+			,imgmovi.type         AS  "imgtype"
+			,imgmovi.createby     AS  "imgcreateby"
+	     	,imgmovi.createdate   AS  "imgcreatedate"
+	     	,imgmovi.modifydate   AS  "imgmodifydate"
+	     	,imgmovi.modifyby     AS  "imgmodifyby"
+	     	,mimg.status          AS  "imgstatus"
+	     FROM type AS t INNER JOIN movi AS mo ON t.id = mo.movitype
+		 INNER JOIN movitype AS mt ON mt.id = mo.type
+		 LEFT JOIN moviimages AS mimg ON mimg.moviid = mo.id
+		 LEFT JOIN imgmovi AS imgmovi ON imgmovi.id = mimg.imageid
+		 WHERE mo.status = #{status}
+	     ]]>
+	</select>
+
+</mapper>

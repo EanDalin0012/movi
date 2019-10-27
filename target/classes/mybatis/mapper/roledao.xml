@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.movi.dao.RoleDAO">
+
+    <resultMap type="RolesDTO"   	id="rolesDTO">
+        <id property="id"	    	    column="id"/>
+        <id property="name" 		    column="name"/>
+        <id property="description" 	    column="description"/>
+        <id property="createDate" 	    column="createdate"/>
+        <id property="createBy" 	    column="createby"/>
+        <id property="modifyDate" 	    column="modifydate"/>
+        <id property="modifyBy" 	    column="modifyby"/>
+        <id property="status" 		    column="status"/>
+    </resultMap>
+
+    <select id="getListRole" resultMap="rolesDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,description
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status
+	     FROM roles WHERE status = #{status}
+	     ]]>
+	</select>
+
+    <insert id="save" parameterType="rolesDTO">
+    	<![CDATA[
+	    	INSERT INTO roles
+	    	(
+	    		name
+	    		, description
+	    		, createdate
+	    		, createby
+	    		, modifydate
+	    		, modifyby
+	    		, status
+	    	)
+	    	VALUES(
+	    		#{name}
+	    		, #{description}
+	    		, #{createDate}
+	    		, #{createBy}
+	    		, #{modifyDate}
+	    		, #{modifyBy}
+	    		, #{status}
+	    		)
+    	]]>
+    </insert>
+
+    <select id="getValueById" resultMap="rolesDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,description
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status
+	     FROM roles WHERE id = #{id}
+	     ]]>
+	</select>
+
+    <update id="update" parameterType="rolesDTO">
+		<![CDATA[
+		UPDATE roles
+	     SET
+	     	name			= #{name}
+	     	,description 	= #{description}
+	     	,modifydate		= #{modifyDate}
+	     	,modifyby		= #{modifyBy}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+
+    <update id="delete" parameterType="rolesDTO">
+		<![CDATA[
+		UPDATE roles
+	     SET
+	     	status			= #{status}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+
+
+</mapper>

@@ -1,0 +1,50 @@
+.btn_add01 {
+    height:30px;
+    padding:0 5px 0 35px;
+    font-size:.75rem;
+    color:#696f79;
+    background:url("/css/images/btn_add01.png") no-repeat 5px center;
+    margin: 0;
+    padding: 0;
+    font: normal 1em 'Noto Sans', 'Noto Sans Khmer', Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    vertical-align: middle;
+    /* background: 0; */
+    border: none;
+    overflow: visible;
+    cursor: pointer;
+}
+.btn_add01 span{
+    margin-left: 40px;
+}
+.btn_add01:focus {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0.2);
+}
+.error{
+    height: 15px;
+}
+.error i{
+    color: red;
+    margin-left: 5px;
+}
+.error span{
+    margin-left: 10px;
+    color: red;
+}
+.dropdown-button{
+    background-color: #66339900;
+    border: 1px solid #ecf0f5;
+    border-radius: 2px !important;
+}
+#searchSelectype select{
+    float: left;
+    width: 120px;
+}
+#searchSelectype label{
+    float: left;
+    padding: 6px 12px;
+}
+#searchSelectype {
+    padding: 10px;
+}

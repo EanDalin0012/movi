@@ -1,0 +1,118 @@
+.modal-dialog {
+    width: 80% !important;
+}
+.modal-content {
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+#dynamic{
+	width: 100%;
+   height: 100%;
+}
+
+.pull-right {
+   float: left !important; 
+} 
+.k-block, .k-widget {
+    font-size: 1.5rem !important; 
+}
+.modal-footer {
+	padding: 15px 29px 15px 15px !important; 
+}
+.bootstrap-dialog-footer-buttons button{
+	width: 110px;
+}
+.btn-save{
+	border: none !important;
+}
+.btn-close{
+	border: none !important;
+	background-color: #dd4b39e0 !important;
+}
+.btn-add{
+	 float: left; 
+}
+div.dataTables_wrapper div.dataTables_info {
+	margin-top: -8px !important;
+    margin-left: 50px !important;
+    float: left !important;
+}
+.dataTables_length{
+	 float: left !important;
+}
+
+.bootstrap-dialog-footer .bootstrap-dialog-footer-buttons .bootstrap-dialog-button-icon{
+	margin-right: 10px !important;
+}
+.dropdown-menu>li>a>.glyphicon, .dropdown-menu>li>a>.fa, .dropdown-menu>li>a>.ion {
+    margin-right: 5px !important;
+}
+.bootstrap-dialog.type-primary .modal-header {
+    background-color: #00c0ef !important;
+}
+.delete-dialog .modal-content{
+	width: 50%;
+	margin-left: 25%;
+}
+input[type="text"],input[type="search"]{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.top input[type="search"]{
+	width: 250px !important;
+	border-color: #4444447d !important;
+	margin-left: 10px !important;
+	font-size: 13px !important;
+}
+select, textarea{
+	border-top: none !important;;
+	border-left: none !important;;
+	border-right: none !important;;
+}
+.form-control {
+	border-color: #4444447d !important;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	background-color: #eee0;
+	opacity: 1;
+}
+
+.input-group-addon, .input-group-btn {
+	vertical-align: bottom !important;
+}
+.form-control:focus {
+	border-color: #3c8dbc !important;
+}
+.top{
+	top: 26px;
+}
+.no-border{
+	width: 200px;
+	margin-top: 0px;
+	background: transparent;
+	float: left;
+}

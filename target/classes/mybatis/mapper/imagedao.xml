@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.movi.dao.ImageDAO">
+
+    <resultMap type="ImagesDTO"   	id="imagesDTO">
+        <id property="id"	    	column="id"/>
+        <id property="name" 		column="name"/>
+        <id property="uri" 		    column="uri"/>
+        <id property="size" 		column="size"/>
+        <id property="type" 		column="type"/>
+        <id property="description" 	column="description"/>
+        <id property="createBy" 	column="createby"/>
+        <id property="createDate" 	column="createdate"/>
+        <id property="modifyBy" 	column="modifyby"/>
+        <id property="modifyDate" 	column="modifydate"/>
+        <id property="status" 		column="status"/>
+    </resultMap>
+
+    <select id="count" resultType="int">
+	   <![CDATA[
+		   select count(*) from imgmovi
+	     ]]>
+	</select>
+
+    <select id="getListImages" resultMap="imagesDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,uri
+	     	,size
+	     	,type
+	     	,description
+	     	,createby
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status
+	     FROM imgmovi where  status = #{status}
+	     ]]>
+	</select>
+
+    <insert id="save" parameterType="imagesDTO">
+    	<![CDATA[
+	    	INSERT INTO imgmovi
+	    	(
+	    		id
+                ,name
+                ,uri
+                ,createby
+                ,createdate
+                ,modifydate
+                ,modifyby
+                ,status
+                ,size
+                ,type
+                ,description
+	    	)
+	    	VALUES(
+	    	    #{id}
+	    		, #{name}
+	    		, #{uri}
+	    		, #{createBy}
+	    		, #{createDate}
+	    		, #{modifyDate}
+	    		, #{modifyBy}
+	    		, #{status}
+	    		, #{size}
+	    		, #{type}
+	    		, #{description}
+	    		)
+    	]]>
+    </insert>
+
+    <select id="getValueById" resultMap="imagesDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,description
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status
+	     FROM type WHERE id = #{id}
+	     ]]>
+	</select>
+
+    <update id="update" parameterType="imagesDTO">
+        <![CDATA[
+	    	UPDATE imgmovi
+	    	  SET
+                ,name         = #{name}
+                ,uri          = #{uri}
+                ,createby     = #{createBy}
+                ,createdate   = #{createDate}
+                ,modifydate   = #{modifyDate}
+                ,modifyby     = #{modifyBy}
+                ,size         = #{size}
+                ,type         = #{type}
+                ,description  = #{description}
+              where id = {id}
+
+		]]>
+	</update>
+
+    <update id="delete" parameterType="imagesDTO">
+		<![CDATA[
+		UPDATE type
+	     SET
+	     	status			= #{status}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+
+
+</mapper>

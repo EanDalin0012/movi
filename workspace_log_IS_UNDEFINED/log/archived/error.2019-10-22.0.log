@@ -1,0 +1,42 @@
+2019-10-22 20:07:14 [restartedMain] [ERROR] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moviDetailsDAO in com.spring.movi.api.MoviResController required a bean of type 'com.spring.movi.dao.MoviDetailsDAO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.spring.movi.dao.MoviDetailsDAO' in your configuration.
+
+2019-10-22 20:07:38 [restartedMain] [ERROR] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field moviDetailsDAO in com.spring.movi.api.MoviResController required a bean of type 'com.spring.movi.dao.MoviDetailsDAO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.spring.movi.dao.MoviDetailsDAO' in your configuration.
+
+2019-10-22 20:08:23 [http-nio-8080-exec-4] [ERROR] c.s.movi.api.MoviTypeRescontroller - 
+ @m!n api movi get list mov 
+2019-10-22 20:14:23 [http-nio-8080-exec-1] [ERROR] c.s.movi.api.MoviTypeRescontroller - 
+ @m!n api movi get list mov 
+2019-10-22 20:16:50 [http-nio-8080-exec-1] [ERROR] c.s.movi.api.MoviTypeRescontroller - 
+ @m!n api movi get list mov 

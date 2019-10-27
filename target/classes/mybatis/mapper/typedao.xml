@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.movi.dao.TypeDAO">
+	
+	<resultMap type="TypeDTO"   	id="typeDTO">
+		<id property="id"	    	column="id"/>
+		<id property="name" 		column="name"/>
+		<id property="description" 	column="description"/>
+		<id property="createDate" 	column="createdate"/>
+		<id property="createBy" 	column="createby"/>
+		<id property="modifyDate" 	column="modifydate"/>
+		<id property="modifyBy" 	column="modifyby"/>
+		<id property="status" 		column="status"/>
+	</resultMap>
+
+	<select id="getListType" resultMap="typeDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,description
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status 
+	     FROM type WHERE status = #{status}
+	     ]]>
+	</select>
+
+	<insert id="save" parameterType="typeDTO">
+    	<![CDATA[
+	    	INSERT INTO type
+	    	(
+	    		name
+	    		, description
+	    		, createdate
+	    		, createby
+	    		, modifydate
+	    		, modifyby
+	    		, status
+	    	)
+	    	VALUES(
+	    		#{name}
+	    		, #{description}
+	    		, #{createDate}
+	    		, #{createBy}
+	    		, #{modifyDate}
+	    		, #{modifyBy}
+	    		, #{status}
+	    		)
+    	]]>
+    </insert>
+
+	<select id="getValueById" resultMap="typeDTO">
+	   <![CDATA[
+		  SELECT
+	     	id
+	     	,name
+	     	,description
+	     	,createdate
+	     	,modifydate
+	     	,modifyby
+	     	,status
+	     FROM type WHERE id = #{id}
+	     ]]>
+	</select>
+
+	<update id="update" parameterType="typeDTO">
+		<![CDATA[
+		UPDATE type
+	     SET
+	     	name			= #{name}
+	     	,description 	= #{description}
+	     	,modifydate		= #{modifyDate}
+	     	,modifyby		= #{modifyBy}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+
+	<update id="delete" parameterType="typeDTO">
+		<![CDATA[
+		UPDATE type
+	     SET
+	     	status			= #{status}
+	     WHERE   id			= #{id}
+		]]>
+	</update>
+	 
+    
+</mapper>

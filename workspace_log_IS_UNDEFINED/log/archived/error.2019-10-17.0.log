@@ -1,0 +1,12 @@
+2019-10-17 21:47:15 [http-nio-8080-exec-1] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
+2019-10-17 21:57:07 [http-nio-8080-exec-4] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
+2019-10-17 22:02:55 [http-nio-8080-exec-1] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
+2019-10-17 22:10:40 [http-nio-8080-exec-1] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
+2019-10-17 22:14:26 [http-nio-8080-exec-1] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
+2019-10-17 22:18:09 [http-nio-8080-exec-1] [ERROR] c.spring.movi.api.RoleRescontroller - 
+ api/uploadfile/file-upload
