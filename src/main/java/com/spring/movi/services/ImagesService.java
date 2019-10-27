@@ -12,4 +12,5 @@ public interface ImagesService {
     Long delete(ImagesDTO imagesDTO);
     ImagesDTO getValueById(int id);
     Long update(ImagesDTO imagesDTO);
+    int count();
 }

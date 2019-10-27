@@ -77,3 +77,42 @@ div.dataTables_wrapper div.dataTables_info {
 	width: 50%;
 	margin-left: 25%;
 }
+input[type="text"],input[type="search"]{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.top input[type="search"]{
+	width: 250px !important;
+	border-color: #4444447d !important;
+	margin-left: 10px !important;
+	font-size: 13px !important;
+}
+select, textarea{
+	border-top: none !important;;
+	border-left: none !important;;
+	border-right: none !important;;
+}
+.form-control {
+	border-color: #4444447d !important;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	background-color: #eee0;
+	opacity: 1;
+}
+
+.input-group-addon, .input-group-btn {
+	vertical-align: bottom !important;
+}
+.form-control:focus {
+	border-color: #3c8dbc !important;
+}
+.top{
+	top: 26px;
+}
+.no-border{
+	width: 200px;
+	margin-top: 0px;
+	background: transparent;
+	float: left;
+}

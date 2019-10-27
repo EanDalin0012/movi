@@ -3,6 +3,13 @@ var selling = "sell";
 var note = "buy";
 var sRateVal1 = "";
 var sRateVal2 = "";
+var index1;
+var index2;
+var rateval1 = 0.00;
+var rateval2 = 0.00;
+var final = 0;
+var selectChange1;
+var selectChange2;
 
 var items = [
     {
@@ -51,119 +58,240 @@ var items = [
     }
 ];
 
+console.log(items);
 $(function () {
     var length = items.length;
     for (var i = 0 ; i < length; i++) {
-        $("#selectRate1").append('<option value="'+items[i].code+'">'+items[i].code+'</option>');
-        $("#selectRate2").append('<option value="'+items[i].code+'">'+items[i].code+'</option>');
+        $("#selectChange1").append('<option value="'+items[i].code+'">'+items[i].code+'</option>');
+        $("#selectChange2").append('<option value="'+items[i].code+'">'+items[i].code+'</option>');
     }
 
-    $("#selectRate1").val("USD");
-    $("#selectRate1").trigger("change");
+    $("#selectChange2").val("USD");
+    $("#selectChange2").trigger("change");
 
-    $("#selectRate2").val("KHR");
-    $("#selectRate2").trigger("change");
-    $("#amount1").html(1);
-    $("#btnBuy").click(function () {
-        sRateVal1 = $("#selectRate1").val();
-        sRateVal2 = $("#selectRate2").val();
-    });
+    $("#selectChange1").val("KHR");
+    $("#selectChange1").trigger("change");
+
+    $("#rate1").val(rateval1);
+    $("#rate2").val(rateval2);
+
 
     $("#btnBuy").click(function () {
-       note = "buy";
-       CalRate1();
+
+        note = "buy";
+       selectChange1 = $("#selectChange1").val();
+       selectChange2 = $("#selectChange2").val();
+
+       rateval1 = $("#rate1").val();
+
+       for (var i = 0; i < items.length; i++) {
+           if (items[i].code === selectChange1) {
+               final = items[i].buying;
+           }
+       }
+
+       for (var i = 0; i < items.length; i++) {
+           if (items[i].code === selectChange2 ) {
+             rateval2 = Math.round( items[i].buying * rateval1 / final * 100) / 100;
+             $("#rate2").val(rateval2);
+           }
+       }
+
     });
     $("#btnSell").click(function () {
         note = "sell";
-        CalRate1();
+        selectChange1 = $("#selectChange1").val();
+        selectChange2 = $("#selectChange2").val();
+        rateval1 = $("#rate1").val();
+        
+        for ( var i = 0; i < items.length; i++ ) {
+            if (items[i].code === selectChange1) {
+                final = items[i].selling;
+            }
+        }
+
+        for (var i = 0; i < items.length; i++ ) {
+            if (items[i].code === selectChange2 ) {
+                rateval2 = Math.round( items[i].selling * rateval1 / final * 100) / 100;
+                $("#rate2").val(rateval2);
+            }
+        }
     });
 
-    $("#amount1").keyup(function () {
-        CalRate1();
+    // rate1 key up
+    $("#rate1").keyup( function (event) {
+        console.log(note);
+        if (items === null || items.length === 0 ){
+            return;
+        } else {
+            if (note === "buy") {
+                rateval1 = $("#rate1").val();
+                selectChange1 = $("#selectChange1").val();
+                selectChange2 = $("#selectChange2").val();
+                console.log('rate', rateval1);
+                console.log('select change 1 ', selectChange1, 'select change 1', selectChange2);
+
+                for (var i = 0; i < items.length; i++) {
+                    if (items[i].code === selectChange1){
+                        final = items[i].buying;
+                    }
+                }
+                for (var i = 0; i < items.length; i++ ) {
+                    if (items[i].code === selectChange2 ) {
+                        rateval2 = Math.round( items[i].buying * rateval1 / final * 100) / 100;
+                        $("#rate2").val(rateval2);
+                    }
+                }
+            } else if ( note === "sell") {
+                var selectChage1 = $("#selectChange1").val();
+                var selectChage2 = $("#selectChange2").val();
+                rateval1 = $("#rate1").val();
+
+                for (var i = 0; i < items.length; i++) {
+                    if (items[i].code === selectChage1){
+                        final = items[i].selling;
+                    }
+                }
+                for (var i =0 ; i < items.length; i++) {
+                    if (items[i].code === selectChage2 ) {
+                        rateval2 = Math.round( items[i].selling * rateval1 / final * 100) / 100;
+                        $("#rate2").val(rateval2);
+                    }
+                }
+            }
+        }
+    });
+    // rate2 key up
+    $("#rate2").keyup(function () {
+        if (items === null || items.length === 0 ) {
+            return;
+        } else  {
+            if (note === "buy") {
+                rateval2 = $("#rate2").val();
+                selectChange1 = $("#selectChange1").val();
+                selectChange2 = $("#selectChange2").val();
+                
+                for (var i = 0; i < items.length; i++) {
+                    if (items[i].code === selectChange2) {
+                        final = items[i].buying;
+                    }
+                } 
+                
+                for (var i = 0; i < items.length; i++){
+                    if (items[i].code === selectChange1) {
+                        rateval1 = Math.round( items[i].buying * rateval2 / final * 100) / 100;
+                        $("#rate1").val(rateval1);
+                    }
+                } 
+
+            } else  if (note === "sell") {
+                var selectChage1 = $("#selectChange1").val();
+                var selectChage2 = $("#selectChange2").val();
+                rateval2 = $("#rate2").val();
+
+                for (var i = 0; i < items.length; i++) {
+                    if (items[i].code === selectChage2){
+                        final = items[i].selling;
+                    }
+                }
+                for (var i =0 ; i < items.length; i++) {
+                    if (items[i].code === selectChage1 ) {
+                        rateval1 = Math.round( items[i].selling * rateval2 / final * 100) / 100;
+                        $("#rate1").val(rateval1);
+                    }
+                }
+            }
+        }
     });
 
-    $("#amount1").keyup(function () {
-        CalRate2();
-    });
 });
 
-function CalRate1() {
-    var input1 = $("#amount1").val();
-    var input2 = $("#amount2").val();
+function selectionChange1(event){
+    index1 = 1;
+    index2 = 0;
+    var selectChage1 = $("#selectChange1").val();
+    var selectChage2 = $("#selectChange2").val();
+    rateval2 = $("#rate2").val();
+    console.log('select Change rate 1', selectChage1, 'rate 2', selectChage2);
 
-    var total = 0;
-    var final = 0;
-    if (note == "buy") {
-        if (sRateVal1 === "USD") {
-
-            for (var i = 0; i <items.length; i++){
-                if (items[i].code === sRateVal1) {
+    if (items === null || items.length === 0 ){
+        return
+    } else {
+        if ( note === "buy") {
+            for (var i = 0; i < items.length; i++ ) {
+                if (items[i].code === selectChage2) {
                     final = items[i].buying;
+                    console.log('final', final);
                 }
             }
 
             for (var i = 0; i < items.length; i++) {
-                if (items[i].code === sRateVal2) {
-                    total = Math.round(items[i].buying * input1 * 100) / 100;
-                    $("#amount2").val(total);
-                    console.log(final);
+                if (items[i].code == selectChage1){
+                    rateval1 = Math.round( items[i].buying * rateval2 / final * 100) /100;
+                    $("#rate1").val(rateval1);
                 }
             }
 
-        } else if (sRateVal2 === "USD") {
+        } else  if (note === "sell") {
 
             for (var i = 0; i < items.length; i++) {
-               if(items[i].code === sRateVal2) {
-                   final = items[i].buying;
-                   console.log("final", final);
-               }
-            }
-
-            for (var i = 0; i < items.length; i++) {
-                if(items[i].code === sRateVal1) {
-                    total = Math.round(items[i].buying * input1 / final * 100) /100;
-                    $("#amount2").val(total);
-                    console.log('sRate val 2 usd jkllk', total, final, items[i].buying, input1);
-                }
-            }
-
-        }
-
-    } else if (note == "sell") {
-
-        console.log( typeof $("#selectRate2").val());
-        console.log('sell');
-        if ($("#selectRate1").val() == "USD") {
-
-            for (var i = 0; i < items.length; i++) {
-                if (items[i].code === sRateVal2) {
+                if (items[i].code === selectChage1){
                     final = items[i].selling;
-                    var amount1 = $("#amount1").val();
-                    var total = Math.round(final * amount1 * 100) / 100;
-                    $("#amount2").val(total);
-                    console.log(final);
                 }
             }
-
-        }
-
-    } else if ( $("#selectRate2").val() == "USD" ) {
-
-        console.log('dkla', $("#selectRate2").val());
-        for (var i = 0; i < items.length; i++) {
-            if (items[i].code === sRateVal1) {
-                final = items[i].selling;
-                var amount1 = $("#amount1").val();
-                var total = Math.round( final * amount1 * 100) / 100;
-                $("#amount1").val(total);
-                console.log(final, total);
+            for (var i =0 ; i < items.length; i++) {
+                if (items[i].code === selectChage2 ) {
+                    rateval2 = Math.round( items[i].selling * rateval1 / final * 100) / 100;
+                    $("#rate2").val(rateval2);
+                }
             }
         }
-
     }
-    console.log(sRateVal1, sRateVal2, items)
+    console.log(selectChage1, selectChage2)
 }
 
-function  CalRate2() {
-    
+
+function selectionChange2(event){
+    index1 = 0;
+    index2 = 1;
+
+    var selectChage1 = $("#selectChange1").val();
+    var selectChage2 = $("#selectChange2").val();
+    rateval1 = $("#rate1").val();
+    rateval2 = $("#rate2").val();
+
+    console.log('rate 1', selectChage1, 'rate 2', selectChage2, 'value 1', rateval1)
+    if (items === null || items.length === 0 ) {
+        return;
+    } else {
+        if (note === "buy") {
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].code === selectChage1){
+                    final = items[i].buying;
+                } 
+            } 
+            
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].code === selectChage2 ) {
+                    rateval2 = Math.round( items[i].buying * rateval1 / final * 100) / 100;
+                    $("#rate2").val(rateval2);
+                    console.log(rateval2);
+                }
+            } 
+        } else if (note === "sell"){
+
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].code === selectChage2){
+                    final = items[i].selling;
+                }
+            }
+            for (var i =0 ; i < items.length; i++) {
+                if (items[i].code === selectChage1 ) {
+                    rateval1 = Math.round( items[i].selling * rateval2 / final * 100) / 100;
+                    $("#rate1").val(rateval1);
+                }
+            }
+        }
+    }
+
 }

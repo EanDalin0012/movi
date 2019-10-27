@@ -13,6 +13,10 @@ public class ImageServiceImp implements ImagesService {
     @Autowired
     private ImageDAO imageDAO;
 
+    @Override
+    public int count() {
+        return imageDAO.count();
+    }
 
     @Override
     public List<ImagesDTO> getListImages(int status) {

@@ -5,10 +5,11 @@ public enum Status {
 	Active("1", "Active "),
 	InActive("2", "InActive"),
 	Modify("3", "Modify"),
-	Request("4","Modify"),
+	Request("4","Request"),
 	Cancel("5","Modify"),
-	Delete("6", "Delete"),
-	Expired("7","Modify");
+	Delete("6", "Cancel"),
+	Expired("7","Expired"),
+	UnActive("8", "InActive"),;
 	
 	String value;
 	String description;

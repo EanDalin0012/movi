@@ -34,5 +34,9 @@ public class SystemDateUtil {
 		formatter= new SimpleDateFormat("HH:mm:ss");
 		return formatter.format(date);
 	}
+	public static String getDateYyyyMdDd_Hh_Mm_Ss() {
+		formatter= new SimpleDateFormat("yyyyMMdd_HH_mm_ss");
+		return formatter.format(date);
+	}
 	
 }

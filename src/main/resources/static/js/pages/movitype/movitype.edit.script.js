@@ -17,7 +17,7 @@ function editMoviType(val){
 
                 + '<div class="form-group col-md-6"> '
                 + '<label for="inputEmail4">Name</label>'
-                + '<input type="text" class="form-control" id="name" placeholder="Enter Name" value="'+data.name+'">'
+                + '<input type="text" class="form-control" id="nameEdit" placeholder="Enter Name" value="'+data.name+'">'
                 + '<span id = "validName" style = "color:red;"></span>'
                 + '</div>'
 
@@ -43,7 +43,7 @@ function editMoviType(val){
                         label: 'Update',
                         cssClass: 'btn-save bg-aqua',
                         action: function(dialogRef) {
-                            toDoPostDataMoviType(dialogRef)
+                            toDoPostDataUpdate(dialogRef, val);
                         }
                     },{
                         icon: 'glyphicon glyphicon-ban-circle',
@@ -64,51 +64,69 @@ function editMoviType(val){
 
 
 
-function toDoPostDataMoviType(dialogRef) {
-	var name = $("#name").val();
-	var addmainmovi = {}
-	addmainmovi["name"] = name;
-	addmainmovi["description"] = $("#validationTextarea").val();
-	if(name === "" || name !== undefined ){
-//		$("#validName").html("Name is require");
-		Swal.fire({
-			  type: 'error',
-			  title: 'Name is require',
-			  text: 'Something went wrong!',
-			//  footer: '<a href>Why do I have this issue?</a>'
-			})
-	} else {
-			$.ajax({
-				type: "POST",
-				contentType: "application/json",
-				url: "/@m!n/movitype/addmovitype",
-				data: JSON.stringify(addmainmovi), // convert array to JSON
-				dataType: 'json',
-				cache: false,
-				timeout: 100000,
-				success: function (data) {
-					
-					if( data.status === true && data.setStatus === "YInserted") {
-						
-						Swal.fire({
-							  type: 'success',
-							  title: data.description,
-							  showConfirmButton: false,
-							  timer: 1500
-						}).then((result) => {
-							result.dismiss === Swal.DismissReason.timer;
-							dialogRef.close();
-						});
-						
-					}
-					
-				}, error: function (e) {
-		
-					console.log("ERROR : ", e);
-		
-				}
-			});
-	}
+function toDoPostDataUpdate(dialogRef, id) {
+	var name = $("#nameEdit").val();
+	var updatEmoviType = {};
+	updatEmoviType['id'] = id;
+    updatEmoviType["name"] = name;
+    updatEmoviType["description"] = $("#validationTextarea").val();
+    if (name === "") {
+        Swal.fire({
+            type: 'error',
+            title: 'Name is require',
+            text: 'Something went wrong!',
+            //  footer: '<a href>Why do I have this issue?</a>'
+        })
+    } else if (name === undefined) {
+        Swal.fire({
+            type: 'error',
+            title: 'Name is require',
+            text: 'Something went wrong!',
+            //  footer: '<a href>Why do I have this issue?</a>'
+        })
+    } else {
+        $.ajax({
+            type: "POST",
+            contentType: "application/json",
+            url: "/@m!n/api/movitype/update",
+            data: JSON.stringify(updatEmoviType), // convert array to JSON
+            dataType: 'json',
+            cache: false,
+            timeout: 100000,
+            success: function (data) {
+                if (data.status === true && data.setStatus === "YUpdated") {
+                    Swal.fire({
+                        type: 'success',
+                        title: data.description,
+                        showConfirmButton: false,
+                        timer: 1500
+                    }).then((result) => {
+                        result.dismiss === Swal.DismissReason.timer;
+                        dialogRef.close();
+                    });
+                } else  {
+                    Swal.fire({
+                        type: 'error',
+                        title: 'Name is require',
+                        text: 'Something went wrong!',
+                        //  footer: '<a href>Why do I have this issue?</a>'
+                    })
+                }
+
+            }, error: function (e) {
+                console.log("ERROR : ", e.responseJSON);
+                if ( e.responseJSON.status === false &&  e.responseJSON.setStatus === "NUpdate" ) {
+                    Swal.fire({
+                        type: 'error',
+                        title: e.responseJSON.description,
+                        text: e.responseJSON.setStatus,
+                        //  footer: '<a href>Why do I have this issue?</a>'
+                    })
+                }
+
+            }
+        });
+    }
 	
 }
 

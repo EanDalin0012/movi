@@ -1,4 +1,6 @@
-$(document).on('click', '#close-preview', function(){ 
+
+var imgId = 0;
+$(document).on('click', '#close-preview', function(){
     $('.image-preview').popover('hide');
     // Hover befor close the preview
     $('.image-preview').hover(
@@ -37,7 +39,8 @@ $(function() {
         $(".image-preview-input-title").text("Browse"); 
     }); 
     // Create the preview image
-    $(".image-preview-input input:file").change(function (){ 
+    $(".image-preview-input input:file").change(function (){
+        $("#popover").css("display","none");
         var img = $('<img/>', {
             id: 'dynamic',
             width:250,
@@ -45,7 +48,7 @@ $(function() {
         });      
         var file = this.files[0];
         var reader = new FileReader();
-        alert();
+
         // Set preview image into the popover data-content
         reader.onload = function (e) {
             $(".image-preview-input-title").text("Change");
@@ -54,29 +57,31 @@ $(function() {
             img.attr('src', e.target.result);
             $(".image-preview").attr("data-content",$(img)[0].outerHTML).popover("show");
             
-        }        
+        }
         reader.readAsDataURL(file);
-        alert();
+        uploadFile();
     });  
 });
 
-
-function uploadImage(){
-	$.ajax({
-		  url: "/edit/uploadfile",
-		  type: 'POST',
-		  data: new FormData($(this)[0]),
-		  enctype: 'multipart/form-data',
-		  processData: false, // tell jQuery not to process the data
-		  contentType: false, // tell jQuery not to set contentType
-		  cache: false,
-
-		  success: function(res) {
-		    console.log(res);
-		  },
-
-		  error: function(res) {
-		    console.log('ERR: ' + res);
-		  }
-		});
-}
+function uploadFile() {
+    $.ajax({
+        url: "/api/upload/file-upload",
+        type: "POST",
+        data: new FormData($("#fileUploadForm")[0]),
+        enctype: 'multipart/form-data',
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function (res) {
+            console.log(res);
+            imgId = res.id;
+            // Handle upload success
+            // ...
+        },
+        error: function (error) {
+            console.log(error);
+            // Handle upload error
+            // ...
+        }
+    });
+} // function uploadFile

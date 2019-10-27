@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.spring.movi.constants.Status;
 import com.spring.movi.dto.ReturnStatus;
+import com.spring.movi.services.servicesImp.TypeSeriviceImp;
 import com.spring.movi.utils.SystemDateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +28,7 @@ public class TypeRecontroller {
 	private static final Logger log = LoggerFactory.getLogger(TypeRecontroller.class);
 	
 	@Autowired
-	TypeDAO typeDAO;
+	TypeSeriviceImp typeDAO;
 	
 	@GetMapping(value = "/getlist")
 	public List<TypeDTO> getList(){

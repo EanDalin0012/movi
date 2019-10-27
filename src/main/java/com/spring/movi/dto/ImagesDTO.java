@@ -1,31 +1,33 @@
 package com.spring.movi.dto;
-
 public class ImagesDTO {
 
 	private int id;
-	private String imgName;
-	private String urlImg;
+	private String name;
+	private String uri;
 	private int status;
+	private Long size;
+	private String type;
+	private String description;
 	private String createDate;
 	private String createBy;
 	private String modifyDate;
 	private String modifyBy;
 
-	public ImagesDTO() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public ImagesDTO(int id, String imgName, String urlImg, int status, String createDate, String createBy , String modifyDate, String modifyBy) {
-		super();
+	public ImagesDTO(int id, String name, String uri, int status, Long size, String type, String description, String createDate, String createBy, String modifyDate, String modifyBy) {
 		this.id = id;
-		this.imgName = imgName;
-		this.urlImg = urlImg;
+		this.name = name;
+		this.uri = uri;
 		this.status = status;
+		this.size = size;
+		this.type = type;
+		this.description = description;
 		this.createDate = createDate;
 		this.createBy = createBy;
-		this.modifyBy = modifyBy;
 		this.modifyDate = modifyDate;
+		this.modifyBy = modifyBy;
+	}
+
+	public ImagesDTO() {
 	}
 
 	public int getId() {
@@ -36,32 +38,20 @@ public class ImagesDTO {
 		this.id = id;
 	}
 
-	public String getImgName() {
-		return imgName;
+	public String getName() {
+		return name;
 	}
 
-	public void setImgName(String imgName) {
-		this.imgName = imgName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getModifyDate() { return modifyDate;	}
-
-	public void setModifyDate(String modifyDate) {
-		this.modifyDate = modifyDate;
+	public String getUri() {
+		return uri;
 	}
 
-	public String getModifyBy() { return modifyBy;	}
-
-	public void setModifyBy(String modifyBy) {
-		this.modifyBy = modifyBy;
-	}
-
-	public String getUrlImg() {
-		return urlImg;
-	}
-
-	public void setUrlImg(String urlImg) {
-		this.urlImg = urlImg;
+	public void setUri(String uri) {
+		this.uri = uri;
 	}
 
 	public int getStatus() {
@@ -70,6 +60,30 @@ public class ImagesDTO {
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+
+	public Long getSize() {
+		return size;
+	}
+
+	public void setSize(Long size) {
+		this.size = size;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public String getCreateDate() {
@@ -88,11 +102,36 @@ public class ImagesDTO {
 		this.createBy = createBy;
 	}
 
+	public String getModifyDate() {
+		return modifyDate;
+	}
+
+	public void setModifyDate(String modifyDate) {
+		this.modifyDate = modifyDate;
+	}
+
+	public String getModifyBy() {
+		return modifyBy;
+	}
+
+	public void setModifyBy(String modifyBy) {
+		this.modifyBy = modifyBy;
+	}
+
 	@Override
 	public String toString() {
-		return "ImagesDTO [id=" + id + ", imgName=" + imgName + ", urlImg=" + urlImg + ", status=" + status
-				+ ", createDate=" + createDate + ", createBy=" + createBy + ", modifyDate=" + modifyDate +
-				", modifyBy=" + modifyBy +"]";
+		return "ImagesDTO{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", uri='" + uri + '\'' +
+				", status=" + status +
+				", size=" + size +
+				", type='" + type + '\'' +
+				", description='" + description + '\'' +
+				", createDate='" + createDate + '\'' +
+				", createBy='" + createBy + '\'' +
+				", modifyDate='" + modifyDate + '\'' +
+				", modifyBy='" + modifyBy + '\'' +
+				'}';
 	}
-	
 }

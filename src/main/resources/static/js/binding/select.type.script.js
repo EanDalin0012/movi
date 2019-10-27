@@ -1,12 +1,12 @@
 /**
  * 
  */
-var selectOptionType ='<select class="form-control" id ="optionType">';
+var selectOptionType ='<select class="form-control" id ="select-type">';
 
 $(function() {
 	$.ajax({
 	    type: "GET",
-	    url: "/@m!n/type/getlist",
+	    url: "/@m!n/api/type/getlist",
 //	    data:{"data":"check"},
 	    contentType: "application/json",
         dataType: "json",
