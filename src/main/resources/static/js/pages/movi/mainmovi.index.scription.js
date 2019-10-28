@@ -80,6 +80,7 @@ $(function() {
                         + ' <button type="button" class="btn btn-default image-preview-input" data-toggle="dropdown">Action '
                         + ' <span class="fa fa-caret-down"></span></button> '
                         + ' <ul class="dropdown-menu"> '
+                        + ' <li onclick="onViewMovie('+row.id+')"><a>Views</a></li> '
                         + ' <li onclick="onEditeMovie('+row.id+')"><a>Edit</a></li> '
                         + ' <li onclick="deleteType('+row.id+')"><a>Delete</a></li> '
                         + ' </ul> '
@@ -96,6 +97,23 @@ $(function() {
     });
 
 });
+
+function onViewMovie(val) {
+    $.ajax({
+        type: "GET",
+        url: "/@m!n/api/movi/getvaluebyid?id="+val,
+        contentType: "application/json",
+        dataType: "json",
+        success: function(data) {
+            console.log(data);
+        },
+        error: function (e) {
+
+            console.log("ERROR : ", e);
+
+        }
+    });
+}
 
 
     	   

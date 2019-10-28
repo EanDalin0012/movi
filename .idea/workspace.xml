@@ -2,259 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="948ee8da-2ccc-4a27-8a60-185d61b4ebf6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/FileRescontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/MoviResController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/controller/MoviController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dao/MoviDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dao/MoviDetailsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dao/MoviImageDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/FileResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/MoviImageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/NoteDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/StorageProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/exception/FileNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/exception/StorageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/MoviService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/servicesImp/FileSystemStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/servicesImp/MoviServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/imagedao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/movidao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/movidetailsdao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/moviimagedao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/@img01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/@img_banner_signout.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/@user_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_end_date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_pattern01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_pattern02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_signout.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/bg_start_date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_add01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del01_st02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del01_st03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_del_widget.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_fav_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_fav_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_livechat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_livechat_fix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_next01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_next_month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_plus01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_popclose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_popclose02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_prev01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_prev_month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_reorder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_search01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_search02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/btn_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_off_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_on_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_s_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_s_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/checkbox_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/com_Error_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/com_Error_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/default-user-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/ACI0100_Home_AccountInquiry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/ACI0110_Home_AccountInquiry_AccountDetailInquiry(Deposit).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/ACI0120_Home_AccountInquiry_AccountDetailInquiry(Loan).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/APV0100_GNB_Approval.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/DLC0100_Deposit_LoanCalculator_DepositCalculator(FixedDeposit).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/DLC0200_Deposit_LoanCalculator_LoanCalulator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3100_Notification-Center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3100_Notification-Center_Detaills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3200_1_Setting_Company-Information-Management.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3200_2_Setting_Change-Password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3200_3_Setting_Otp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3200_Setting_FAQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/HOM3210_Setting_FAQ_Detail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/IFM0200_InformationManagement_UserManagement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/IFM0310_InformationManagement_ApprovalStepManagement_Transfer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/IFM0400_InformationManagement_FrequentlyUsedAccount.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/IFM0500_InformationManagement_AccountGroupManagement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/TRF0110_Transfer_Transfer-(Account)_Direct-Input-tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/TRF0300_Transfer_Multi-Transfer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/TRF0400_Transfer_Oversea-Transfer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/TRF0510_Transfer_Transfer-Result-Inquiry(Domestic).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/TRF0600_Transfer_Multi-Transfer-Inquiry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/VAS0100_VirtualAccountService_VirtualAccountManagement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/VAS0200_VirtualAccountService_PaymentInformationHistory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/img_guide_ACI0110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/guide/img_guide_HOM1000.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_PC01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_Q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_add_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_approval_final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_approval_requester.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_calculat_equal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_calculat_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_calendar01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_down01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_down02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_down03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_down04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_down05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_edit01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_error01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_file_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_file_excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_file_excel_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_file_pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_file_upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_bdt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_bhd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_bnd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_brl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_cny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_dkk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_eur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_jpy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_khr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_krw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_mop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_mxn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_myr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_nok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_npr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_nzd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_rub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_sar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_sek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_thb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_twd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_usd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_vnd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_flag_zar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_guide01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_lang_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_lang_flag_china.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_lang_flag_eng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_lang_flag_khmer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_list_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_loading01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_msg_success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_new_bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_next01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_next01_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_noti.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_plus_widget.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_prev01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_prev01_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_rarrow01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_rarrow02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_sitemap_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_sort_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_sorting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_sorting_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_sorting_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_step_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_step_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_user_master.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_user_sub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/ico_write01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_OTP_guide01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_OTP_guide02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_QR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_guide01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide02_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide02_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide02_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide03_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/img_screenguide03_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_footer_ppcb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_ppcb01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_ppcb02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_ppcb03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_ppcb03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_signout.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_smartbiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/logo_smartbiz_subpage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/radio_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/radio_off_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/radio_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/radio_on_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/select_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/select_arrow_family.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/step01_next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/bg_card06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_add_favorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_equal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_nodata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_nodata_recent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_appr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_need.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_rej.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_req.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/ico_status_wait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/widget/img_widget09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/binding/datetime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/moment/ender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/moment/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/moment/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/MoviApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/MoviApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/ImageRescontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/ImageRescontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/TypeRecontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/TypeRecontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/constants/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/constants/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/dao/ImageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dao/ImageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/ImagesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/ImagesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/MainMoviDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/MoviDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/MainMoviDetailsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/dto/MoviDetailsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/ImagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/ImagesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/servicesImp/ImageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/services/servicesImp/ImageServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/movi/utils/SystemDateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/utils/SystemDateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/binding/select.movi.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/binding/select.movi.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/binding/select.type.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/binding/select.type.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/binding/uploadimg.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/binding/uploadimg.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/exchangerate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/exchangerate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/mainmovi/mainmovi.add.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.add.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/mainmovi/mainmovi.edit.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.edit.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/mainmovi/mainmovi.index.scription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/movitype/movitype.edit.script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/movitype/movitype.edit.script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_lelt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_lelt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/pages/mainmovi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pages/movi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/api/ViewsMoviRescontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/movi/controller/ViewsMoviController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/pages/viewsmovie/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/pages/movi/mainmovi.index.scription.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/pages/movi/mainmovi.index.scription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace_log_IS_UNDEFINED/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace_log_IS_UNDEFINED/log/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace_log_IS_UNDEFINED/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace_log_IS_UNDEFINED/log/error.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -269,8 +24,88 @@
       <file leaf-file-name="mainmovi.index.scription.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="1598">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewsMoviRescontroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/ViewsMoviRescontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewsMoviController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/controller/ViewsMoviController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/type/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1122">
+              <caret line="11" column="4" selection-end-line="93" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/viewsmovie/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1479">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/controller/TypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeRecontroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/TypeRecontroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="78" column="22" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainmovi.edit.script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.edit.script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="37" selection-start-line="12" selection-start-column="12" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,17 +113,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/movi/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="66" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="15" />
+            <state relative-caret-position="595">
+              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -302,61 +128,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainmovi.add.script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.add.script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="22" selection-start-line="22" selection-start-column="12" selection-end-line="27" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoviResController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/MoviResController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2023">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoviImageDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/dao/MoviImageDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadimg.script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/binding/uploadimg.script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movidetailsdao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/movidetailsdao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -373,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/exchangerate.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_lelt.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/movi/services/servicesImp/TypeSeriviceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/movi/api/TypeRecontroller.java" />
@@ -418,10 +196,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.edit.script.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/movi/api/MoviResController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/movidetailsdao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/binding/select.movi.script.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/pages/movi/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/movi/api/ViewsMoviRescontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/movi/controller/ViewsMoviController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/pages/viewsmovie/index.html" />
       </list>
     </option>
   </component>
@@ -440,6 +221,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/movi.git/trunk/src/main/resources/static/plugins/bower_components/Flot/package.json" />
       <path value="$PROJECT_DIR$/src/main/resources/static/plugins/bower_components/Flot/package.json" />
       <path value="$PROJECT_DIR$/src/main/resources/static/plugins/bower_components/bootstrap-colorpicker/package.json" />
       <path value="$PROJECT_DIR$/src/main/resources/static/plugins/bower_components/bootstrap-datepicker/package.json" />
@@ -458,7 +240,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="935" />
-    <option name="y" value="121" />
+    <option name="y" value="120" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -468,15 +250,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="movi" type="b2602c69:ProjectViewProjectNode" />
               <item name="movi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="movi.git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="movi.git" type="462c0819:PsiDirectoryNode" />
+              <item name="trunk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movi" type="b2602c69:ProjectViewProjectNode" />
@@ -501,7 +294,26 @@
               <item name="movi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movi" type="b2602c69:ProjectViewProjectNode" />
@@ -509,54 +321,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movi" type="b2602c69:ProjectViewProjectNode" />
@@ -594,7 +358,7 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="movi" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -603,6 +367,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -712,15 +477,15 @@
       <workItem from="1572017174986" duration="3030000" />
       <workItem from="1572071508877" duration="14103000" />
       <workItem from="1572190267434" duration="594000" />
+      <workItem from="1572277221874" duration="1505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137392000" />
+    <option name="totallyTimeSpent" value="138897000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -734,15 +499,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34330484" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37891737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37891737" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30402684" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -752,7 +518,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.027065527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32965517" />
@@ -830,48 +595,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/binding/select.type.script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/fragments/_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/ImageRescontroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="91" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/dto/NoteDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/type/type.add.script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="19" selection-start-line="69" selection-start-column="12" selection-end-line="78" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/MoviApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1139,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.edit.script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/movidao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
@@ -1167,24 +883,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/movi/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="66" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="66" />
+        <state relative-caret-position="595">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.edit.script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="37" selection-start-line="12" selection-start-column="12" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/movi/mainmovi.index.scription.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="1598">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/TypeRecontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="15" />
+        <state relative-caret-position="-51">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/api/ViewsMoviRescontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/controller/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/movi/controller/ViewsMoviController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/type/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="11" column="4" selection-end-line="93" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/pages/viewsmovie/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
